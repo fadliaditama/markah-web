@@ -1,7 +1,7 @@
 /* eslint-disable indent */
-import React from "react";
-import { Link } from "react-router-dom";
-import { Logo } from "../assets";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Logo } from '../assets';
 
 const Navbar = ({ home, register, articles, aboutus, faq }) => {
   return (

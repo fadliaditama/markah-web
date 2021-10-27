@@ -1,8 +1,10 @@
 /* eslint-disable indent */
-import React from "react";
-import { PromoImage, WhyImage } from "../assets";
-// import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import React from 'react';
+import { PromoImage, WhyImage } from '../assets';
+import CardArtikel from '../components/CardArtikel';
+import CardKelas from '../components/CardKelas';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 const Home = () => {
   return (
@@ -34,7 +36,34 @@ const Home = () => {
             <text className="text-xl font-regular tracking-wide">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</text>
           </div>
         </section>
+        <section className="bg-gray-900 h-full py-10 w-full">
+          <h1 className="text-white text-2xl text-center font-bold mb-16">Daftar Kelas</h1>
+          <div className="grid grid-cols-3 grid-rows-7 gap-y-24 px-28 ml-0">
+            <CardKelas name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" id="/class-detail" />
+            <CardKelas name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
+            <CardKelas name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
+          </div>
+          <div className="my-10 flex justify-center items-center">
+            <button className="focus:outline-none ml-28  text-white font-bold text-lg bg-red-900 px-16 py-4 rounded-lg lg:ml-9" >LoadMore</button>
+          </div>
+        </section>
+        <section className="bg-white py-10 h-full w-full">
+          <h1 className="text-2xl text-center font-bold mb-10">Artikel</h1>
+          <div className="grid grid-cols-3 grid-rows-7 gap-x-10 gap-y-24 px-28 ml-0">
+            <CardArtikel name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
+            <CardArtikel name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
+            <CardArtikel name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
+            <CardArtikel name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
+            <CardArtikel name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
+          </div>
+          <div className="my-10 flex justify-center items-center">
+            <button className="focus:outline-none ml-28  text-white font-bold text-lg bg-red-900 px-16 py-4 rounded-lg lg:ml-9" >LoadMore</button>
+          </div>
+        </section>
       </main>
+      <footer className="">
+        <Footer />
+      </footer>
     </>
   );
 };
