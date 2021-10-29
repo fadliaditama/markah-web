@@ -55,6 +55,7 @@ const Home = () => {
             <CardArtikel name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
             <CardArtikel name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
             <CardArtikel name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
+            <CardArtikel name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
           </div>
           <div className="my-10 flex justify-center items-center">
             <button className="focus:outline-none ml-28  text-white font-bold text-lg bg-red-900 px-16 py-4 rounded-lg lg:ml-9" >LoadMore</button>
