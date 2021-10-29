@@ -5,4 +5,5 @@ import ContentImage from './images/content.png';
 import GmailIcon from './icons/gmailIcon 1.png';
 import IgIcon from './icons/igIcon 1.png';
 import TiktokIcon from './icons/tiktokIcon 1.png';
-export { Logo, PromoImage, WhyImage, ContentImage, GmailIcon, IgIcon, TiktokIcon };
+import DetailContentImage from './images/content 1.png';
+export { Logo, PromoImage, WhyImage, ContentImage, GmailIcon, IgIcon, TiktokIcon, DetailContentImage };
