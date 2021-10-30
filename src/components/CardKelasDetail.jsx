@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const CardKelasDetail = ({ img, link, titleClass, price, desc }) => {
   return (
     <section className="py-20 px-10">
-      <div className="bg-white w-105 h-100 mx-36 shadow-lg border-gray-800 border-2">
+      <div className="bg-white w-105 h-100 mx-36 shadow-lg border-gray-700 border-2">
         <div className="flex flex-row space-x-7 mx-7 p-10">
           <img
             className="w-80 h-50 rounded-md object-cover"

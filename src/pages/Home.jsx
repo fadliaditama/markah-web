@@ -50,7 +50,7 @@ const Home = () => {
         <section className="bg-white py-10 h-full w-full">
           <h1 className="text-2xl text-center font-bold mb-10">Artikel</h1>
           <div className="grid grid-cols-3 grid-rows-7 gap-x-10 gap-y-24 px-28 ml-0">
-            <CardArtikel name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
+            <CardArtikel name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" id="/article-detail" />
             <CardArtikel name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
             <CardArtikel name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
             <CardArtikel name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
