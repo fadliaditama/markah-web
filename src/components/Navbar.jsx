@@ -20,7 +20,7 @@ const Navbar = ({ home, register, articles, aboutus, faq }) => {
               </Link>
             </li>
             <li>
-              <Link className={register} to="/register">
+              <Link className={register} to="/register-class">
                 Register
               </Link>
             </li>
