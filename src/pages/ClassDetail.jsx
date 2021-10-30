@@ -21,7 +21,7 @@ const ClassDetail = () => {
         <CardKelasDetail />
         <h2 className="font-bold text-2xl p-10 px-40">Kelas Lainnya</h2>
         <div className="grid grid-cols-3 grid-rows-7 gap-y-24 px-28 ml-0 pb-20">
-          <CardKelas name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" id="/class-detail" />
+          <CardKelas name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" id="/class-detail" link="https://forms.gle/8wycrHVmwZfSpgMx7" />
           <CardKelas name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
         </div>
       </main>
