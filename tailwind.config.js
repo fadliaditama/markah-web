@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable indent */
 module.exports = {
   darkMode: false, // or 'media' or 'class'
