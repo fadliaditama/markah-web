@@ -7,6 +7,7 @@ import Home from './Home';
 import ArticleDetail from './ArticleDetail';
 import ListClass from './ListClass';
 import ListArticles from './ListArticles';
+import About from './About';
 
 const Router = () => {
   return (
@@ -17,6 +18,7 @@ const Router = () => {
         <Route path="/article-detail" exact component={ArticleDetail} />
         <Route path="/register-class" exact component={ListClass} />
         <Route path="/articles" exact component={ListArticles} />
+        <Route path="/about" exact component={About} />
       </Switch>
     </BrowserRouter>
   );

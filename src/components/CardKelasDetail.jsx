@@ -2,8 +2,8 @@
 /* eslint-disable indent */
 import React from 'react';
 import { DetailContentImage } from '../assets';
-import { Link } from 'react-router-dom';
-const CardKelasDetail = ({ img, link, titleClass, price, desc }) => {
+const CardKelasDetail = ({ img, onClick, titleClass, price, desc }) => {
+
   return (
     <section className="py-20 px-10">
       <div className="bg-white w-105 h-100 mx-36 shadow-lg border-gray-700 border-2">
@@ -23,9 +23,9 @@ const CardKelasDetail = ({ img, link, titleClass, price, desc }) => {
           <p className="px-20">{desc} </p>
         </div>
         <div className="flex flex-col mt-44 px-20">
-          <Link to={link} className="bg-red-700 p-3 hover:bg-red-900 text-center text-white w-36 rounded-md font-semibold">
+          <button onClick={onClick} className="bg-red-700 p-3 hover:bg-red-900 text-center text-white w-36 rounded-md font-semibold">
             <span className="">Daftar</span>
-          </Link>
+          </button>
         </div>
       </div>
     </section>
