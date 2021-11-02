@@ -34,7 +34,7 @@ const About = () => {
           <div className="grid grid-cols-3 grid-rows-7 gap-y-24 px-28 mt-10">
             <CardTutor name="M. Irfan Triananto" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas risus enim, eget euismod mauris rhoncus at. Quisque sit amet est imperdiet, bibendum metus eget, ullamcorper libero. Nulla facilisi." />
             <CardTutor name="Ahmad Ryadh" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas risus enim, eget euismod mauris rhoncus at. Quisque sit amet est imperdiet, bibendum metus eget, ullamcorper libero. Nulla facilisi." />
-            <CardTutor name="M. Fadli Aditama" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas risus enim, eget euismod mauris rhoncus at. Quisque sit amet est imperdiet, bibendum metus eget, ullamcorper libero. Nulla facilisi." />
+            <CardTutor name="Acmad Fadli Aditama" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas risus enim, eget euismod mauris rhoncus at. Quisque sit amet est imperdiet, bibendum metus eget, ullamcorper libero. Nulla facilisi." />
             <CardTutor name="Muhammad Abdi Priyangga" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas risus enim, eget euismod mauris rhoncus at. Quisque sit amet est imperdiet, bibendum metus eget, ullamcorper libero. Nulla facilisi." />
           </div>
         </section>
