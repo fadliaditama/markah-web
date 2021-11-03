@@ -16,9 +16,9 @@ const ListClass = () => {
           faq="text-white"
         />
       </header>
-      <main className="p-10">
-        <h1 className="p-5 px-20 py-12 font-bold text-3xl tracking-wider">Daftar Kelas</h1>
-        <div className="grid grid-cols-3 grid-rows-7 gap-y-24 px-28 ml-0">
+      <main className="lg:p-10">
+        <h1 className="justify-center text-center lg:p-5 lg:px-20 py-12 font-bold text-3xl tracking-wider">Daftar Kelas</h1>
+        <div className="grid justify-center lg:grid-cols-3 lg:grid-rows-7 gap-y-24 lg:px-48 lg:ml-40">
           <CardListClass />
           <CardListClass />
           <CardListClass />

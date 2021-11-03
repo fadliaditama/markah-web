@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const CardListArticle = ({ id, name, desc, img }) => {
   return (
     <div className="shadow-xl rounded-md bg-white w-106 h-60 flex flex-col justify-center items-center py-5">
-      <div className="flex flex-row space-x-5 divide-x-4  divide-gray-900">
+      <div className="flex flex-col lg:flex-row space-x-5 divide-x-4  divide-gray-900">
         <div className="flex flex-col ml-0">
           <img
             className="w-36 h-28 rounded-md object-cover"

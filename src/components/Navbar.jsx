@@ -7,14 +7,14 @@ import { Logo } from '../assets';
 const Navbar = ({ home, register, articles, aboutus, faq }) => {
   return (
     <>
-      <nav className="flex flex-row bg-white rounded-l-lg">
+      <nav className="flex flex-col lg:flex-row rounded-l-lg">
         <Link>
-          <div className="flex px-20 my-2 bg-white ">
+          <div className="flex pb-4 px-28 lg:px-20 lg:my-2">
             <img src={Logo} alt="Logo" />
           </div>
         </Link>
-        <div className="rounded-l-lg bg-red-900 w-full">
-          <ul className="flex space-x-10 px-60 my-2 text-md">
+        <div className="bg-red-900 w-auto lg:w-full lg:rounded-l-lg">
+          <ul className="flex space-x-10 p-0 lg:px-60 lg:my-2 text-md">
             <li>
               <Link className={home} to="/">
                 Home

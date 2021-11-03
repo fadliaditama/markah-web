@@ -6,7 +6,7 @@ import { GmailIcon, IgIcon, Logo, TiktokIcon } from '../assets';
 const Footer = () => {
   return (
     <>
-      <footer className="flex flex-row bg-gray-600 h-20">
+      <footer className="flex flex-col lg:flex-row bg-gray-600 h-auto">
         <div className="flex px-10 bg-white py-4 ">
           <img src={Logo} alt="Logo" className="w-40 h-8" />
         </div>
