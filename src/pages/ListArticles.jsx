@@ -17,8 +17,8 @@ const ListArticles = () => {
         />
       </header>
       <main className="p-10">
-        <h1 className="p-5 px-20 py-12 font-bold text-3xl tracking-wider">Daftar Artikel</h1>
-        <div className="grid grid-cols-1 grid-rows-1 gap-y-14 px-28 ml-0">
+        <h1 className="text-center p-5 lg:px-20 py-12 font-bold text-3xl tracking-wider">Daftar Artikel</h1>
+        <div className="grid place-items-center grid-cols-1 grid-rows-1 gap-y-14 lg:px-28 ml-0">
           <CardListArticle name="Kelas Markah" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas risus enim, eget euismod mauris rhoncus at. Quisque sit amet est imperdiet, bibendum metus eget, ullamcorper libero. Nulla facilisi. Quisque rhoncus ligula sit amet volutpat condimentum. Aliquam erat volutpat. Phasellus sed tempor nisi, eu imperdiet metus. Nam finibus facilisis vestibulum. Fusce sed diam condimentum, euismod neque aliquet, dignissim nunc. Nam ac aliquet nisl. Suspendisse dapibus ultrices augue." />
           <CardListArticle name="Kelas Markah" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas risus enim, eget euismod mauris rhoncus at. Quisque sit amet est imperdiet, bibendum metus eget, ullamcorper libero. Nulla facilisi. Quisque rhoncus ligula sit amet volutpat condimentum. Aliquam erat volutpat. Phasellus sed tempor nisi, eu imperdiet metus. Nam finibus facilisis vestibulum. Fusce sed diam condimentum, euismod neque aliquet, dignissim nunc. Nam ac aliquet nisl. Suspendisse dapibus ultrices augue." />
           <CardListArticle name="Kelas Markah" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas risus enim, eget euismod mauris rhoncus at. Quisque sit amet est imperdiet, bibendum metus eget, ullamcorper libero. Nulla facilisi. Quisque rhoncus ligula sit amet volutpat condimentum. Aliquam erat volutpat. Phasellus sed tempor nisi, eu imperdiet metus. Nam finibus facilisis vestibulum. Fusce sed diam condimentum, euismod neque aliquet, dignissim nunc. Nam ac aliquet nisl. Suspendisse dapibus ultrices augue." />
