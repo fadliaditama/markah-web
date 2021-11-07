@@ -9,12 +9,12 @@ const Navbar = ({ home, register, articles, aboutus, faq }) => {
     <>
       <nav className="flex flex-col lg:flex-row rounded-l-lg">
         <Link>
-          <div className="flex pb-4 px-28 lg:px-20 lg:my-2">
+          <div className="flex pb-4 px-28 md:px-72 md:pt-4 lg:px-4">
             <img src={Logo} alt="Logo" />
           </div>
         </Link>
-        <div className="bg-red-900 w-auto lg:w-full lg:rounded-l-lg">
-          <ul className="flex space-x-10 p-0 lg:px-60 lg:my-2 text-md">
+        <div className="bg-red-900 w-auto md:w-full md:rounded-l-lg">
+          <ul className="flex space-x-10 p-0 md:px-60 md:my-2 text-md">
             <li>
               <Link className={home} to="/">
                 Home
