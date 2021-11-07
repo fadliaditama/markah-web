@@ -28,6 +28,7 @@ const ClassDetail = () => {
         <div className="grid grid-cols-3 grid-rows-7 gap-y-24 px-28 ml-0 pb-20">
           <CardKelas name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" id="/class-detail" />
           <CardKelas name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
+          <CardKelas name="Hello" desc="Video on Demand Penjelasan Kelas 100rb jadi ......" />
         </div>
       </main>
       <footer>
