@@ -4,7 +4,7 @@ import React from 'react';
 import { DetailContentImage } from '../assets';
 import { Link } from 'react-router-dom';
 
-const CardListArticle = ({ id, name, desc, img }) => {
+const CardListArticle = ({ to, name, desc, img }) => {
   return (
     <div className="shadow-xl rounded-md bg-white w-106 h-60 flex flex-col justify-center items-center py-5">
       <div className="flex flex-col lg:flex-row space-x-5 divide-x-4  divide-gray-900">
@@ -28,7 +28,7 @@ const CardListArticle = ({ id, name, desc, img }) => {
             {name}
           </h4>
           <h5 className="text-gray-600 font-normal text-sm w-100 text-justify mt-4"> {desc}</h5>
-          <Link to={id} className="bg-red-700 hover:bg-red-900 text-white text-sm text-center w-40 mt-3 rounded-md font-semibold">
+          <Link to={to} className="bg-red-700 hover:bg-red-900 text-white text-sm text-center w-40 mt-3 rounded-md font-semibold">
             Baca Lebih Dalam
           </Link>
         </div>

@@ -39,9 +39,9 @@ const About = () => {
           </div>
         </section>
       </main>
-      <foote>
+      <footer>
         <Footer />
-      </foote>
+      </footer>
     </>
   );
 };

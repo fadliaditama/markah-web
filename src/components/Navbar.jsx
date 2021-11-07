@@ -21,7 +21,7 @@ const Navbar = ({ home, register, articles, aboutus, faq }) => {
               </Link>
             </li>
             <li>
-              <Link className={register} to="/register-class">
+              <Link className={register} to="/class">
                 Register
               </Link>
             </li>

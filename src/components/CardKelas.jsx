@@ -3,10 +3,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ContentImage } from '../assets';
-const CardKelas = ({ id, name, desc, img }) => {
+const CardKelas = ({ to, name, desc, img }) => {
   return (
-    <div className="space-y-2 shadow-xl rounded-md bg-white w-80 h-44 flex flex-col justify-center items-center py-5">
-      <h4 className="text-center flex-1 font-bold w-20 flex justify-center text-xl leading-tight">
+    <div className="space-y-2 shadow-xl rounded-md bg-white w-82 h-56 flex flex-col justify-center items-center py-5">
+      <h4 className="text-center flex-1 font-bold w-40 flex justify-center text-lg leading-tight">
         {name}
       </h4>
       <div className="flex flex-row space-x-7 mx-7">
@@ -16,8 +16,8 @@ const CardKelas = ({ id, name, desc, img }) => {
           alt="food"
         />
         <div className="flex flex-col">
-          <h5 className="text-yellow-900 font-medium"> {desc}</h5>
-          <Link to={id} className="bg-red-700 hover:bg-red-900 text-white text-center mt-3 rounded-md font-semibold">
+          <h5 className="text-yellow-900 text-sm text-justify font-normal"> {desc}</h5>
+          <Link to={to} className="bg-red-700 hover:bg-red-900 text-white text-center mt-3 rounded-md font-semibold">
             see detail
           </Link>
         </div>
