@@ -36,7 +36,7 @@ const ClassDetail = (props) => {
         />
       </header>
       <main>
-        <CardKelasDetail onClick={() => openNewTab('https://forms.gle/8wycrHVmwZfSpgMx7')} />
+        <CardKelasDetail key={detail.id} name={detail.name} price={detail.price} img={detail.images === null || undefined ? DetailContentImage : `${detail.images}`} desc={detail.detail} onClick={() => openNewTab('https://forms.gle/8wycrHVmwZfSpgMx7')} />
         <h2 className="font-bold text-center text-2xl p-10 px-40">Kelas Lainnya</h2>
         <div className="grid md:grid-cols-2 2xl:grid-cols-3 grid-rows-7 gap-y-24 px-8 2xl:px-28 ml-0 pb-20">
           {props.classes.data.map((dt) => {
@@ -44,7 +44,7 @@ const ClassDetail = (props) => {
             console.log(dt);
             console.log('====================================');
             return (
-              <CardKelas key={dt.id} name={dt.name} desc={dt.description} to={`${dt.id}`} img={dt?.images === null || undefined ? DetailContentImage : `${URL}${dt.images}`} />
+              <CardKelas key={dt.id} name={dt.name} desc={dt.description} to={`${dt.id}`} img={dt?.images === null || undefined ? ContentImage : `${URL}${dt.images}`} />
             );
           })}
         </div>
